@@ -1,0 +1,9 @@
+.split-line {
+    height: 0px;
+    width: auto;
+    margin: 5px 0px 8px 0px;
+    background-color: lightyellow;
+    border-radius: 100%;
+    border-style: double;
+    border-color: lightsalmon;
+}
