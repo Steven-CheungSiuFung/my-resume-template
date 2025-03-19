@@ -16,7 +16,7 @@ function Education() {
         <SessionContainer>
             <SubTitle><PiStudentFill /><Spacer /><StyleText>Education</StyleText></SubTitle>
             <SplitLine />
-            <LineWrapper columns="100px 1fr"><Text>2012-2016</Text><Text>Department of XXXXX of XXXXX University</Text></LineWrapper>  
+            <LineWrapper columns="100px 1fr"><Text>2012 - 2016</Text><Text>Department of XXXXX of XXXXX University</Text></LineWrapper>  
         </SessionContainer>
     )
 }

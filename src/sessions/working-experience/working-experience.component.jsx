@@ -16,9 +16,21 @@ function WorkingExperience() {
         <SessionContainer>
             <SubTitle><MdWorkHistory /><Spacer /><StyleText>Working Experience</StyleText></SubTitle>
             <SplitLine />
-            <LineWrapper columns="100px 200px 1fr"><Text>2022-2024</Text><Text>Frontend-Programmer</Text><Text>XXXXXXX Technology Limit</Text></LineWrapper>
-            <LineWrapper columns="100px 200px 1fr"><Text>2018-2022</Text><Text>Frontend-Programmer</Text><Text>XXXXXXX Technology Limit</Text></LineWrapper>
-            <LineWrapper columns="100px 200px 1fr"><Text>2016-2018</Text><Text>Frontend-Programmer</Text><Text>XXXXXXX Technology Limit</Text></LineWrapper>
+            <LineWrapper columns="100px 180px 1fr">
+                <Text>2022 - 2024</Text>
+                <Text>Frontend-Programmer</Text>
+                <Text>XXXXXXX Technology Limit</Text>
+            </LineWrapper>
+            <LineWrapper columns="100px 180px 1fr">
+                <Text>2018 - 2022</Text>
+                <Text>Frontend-Programmer</Text>
+                <Text>XXXXXXX Technology Limit</Text>
+            </LineWrapper>
+            <LineWrapper columns="100px 180px 1fr">
+                <Text>2016 - 2018</Text>
+                <Text>Frontend-Programmer</Text>
+                <Text>XXXXXXX Technology Limit</Text>
+            </LineWrapper>
         </SessionContainer>
     )
 }

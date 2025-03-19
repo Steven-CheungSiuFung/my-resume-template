@@ -22,6 +22,7 @@ function PersonalProfile() {
             <LineWrapper><Text>Nationality:</Text><Text>Hong Kong, China</Text></LineWrapper>
             <LineWrapper><Text>Address:</Text><Text>XXXXX Garden, XXXXX Road, XXXXX, XX, Hong Kong</Text></LineWrapper>
             <LineWrapper><Text>Website:</Text><Text>https://steven-cheung.com</Text></LineWrapper>
+            <LineWrapper><Text>Github:</Text><Text>https://github.com/Steven-CheungSiuFung</Text></LineWrapper>
         </SessionContainer>
     )
 }
