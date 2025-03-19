@@ -16,8 +16,8 @@ function TechnicalSkills() {
         <SessionContainer>
             <SubTitle><LuCodeXml /><Spacer /><StyleText>Technical Skills</StyleText></SubTitle>
             <SplitLine />
-            <LineWrapper columns="200px 1fr"><Text>Frontend Framwork:</Text><Text>React.js, Vue.js</Text></LineWrapper>
-            <LineWrapper columns="200px 1fr"><Text>Backend Framwork:</Text><Text>Node.js, Next.js</Text></LineWrapper>
+            <LineWrapper columns="200px 1fr"><Text>Frontend Framework:</Text><Text>React.js, Vue.js</Text></LineWrapper>
+            <LineWrapper columns="200px 1fr"><Text>Backend Framework:</Text><Text>Node.js, Next.js</Text></LineWrapper>
             <LineWrapper columns="200px 1fr"><Text>Database:</Text><Text>SQL, MongoDB, Redis</Text></LineWrapper>
             <LineWrapper columns="200px 1fr"><Text>Programming Language:</Text><Text>Javascript</Text></LineWrapper>
         </SessionContainer>

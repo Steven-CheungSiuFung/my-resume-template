@@ -1,3 +1,4 @@
+import Header from './sessions/header/header.component';
 import PersonalProfile from './sessions/personal-profile/personal-profile.component';
 import TechnicalSkills from './sessions/technical-skills/technical-skills.component';
 import WorkingExperience from './sessions/working-experience/working-experience.component';
@@ -10,6 +11,7 @@ import './App.css';
 function App() {
   return (
     <div>
+      <Header />
       <PersonalProfile />
       <TechnicalSkills />
       <WorkingExperience />

@@ -21,7 +21,7 @@ function PersonalProfile() {
             <LineWrapper><Text>Email:</Text><Text>my-email-address@gmail.com</Text></LineWrapper>
             <LineWrapper><Text>Nationality:</Text><Text>Hong Kong, China</Text></LineWrapper>
             <LineWrapper><Text>Address:</Text><Text>XXXXX Garden, XXXXX Road, XXXXX, XX, Hong Kong</Text></LineWrapper>
-            <LineWrapper><Text>Website:</Text><Text>8https://steven-cheung.com</Text></LineWrapper>
+            <LineWrapper><Text>Website:</Text><Text>https://steven-cheung.com</Text></LineWrapper>
         </SessionContainer>
     )
 }
