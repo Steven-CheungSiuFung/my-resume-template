@@ -3,6 +3,7 @@ import Text from '../../components/text/text.component';
 import Spacer from '../../components/spacer/spacer.component';
 
 import SessionContainer from '../../components/session-container/session-container.component';
+import LineWrapper from '../../components/line-wrapper/line-wrapper.component';
 
 import { HiInformationCircle } from "react-icons/hi";
 
@@ -12,12 +13,12 @@ function PersonalProfile() {
     return (
         <SessionContainer>
             <SubTitle> <HiInformationCircle /><Spacer position="left" size="5px" />Personal Information</SubTitle>
-            <Text>Name: Steven Cheung</Text>
-            <Text>Mobile: 8888-8888</Text>
-            <Text>Email: my-email-address@gmail.com</Text>
-            <Text>Nationality: Hong Kong, China</Text>
-            <Text>Address: XXXXX Garden, XXXXX Road, XXXXX, XX, Hong Kong</Text>
-            <Text>Website: https://steven-cheung.com</Text>
+            <LineWrapper><Text>Name:</Text><Text>Steven Cheung</Text></LineWrapper>
+            <LineWrapper><Text>Mobile:</Text><Text>8888-8888</Text></LineWrapper>
+            <LineWrapper><Text>Email:</Text><Text>my-email-address@gmail.com</Text></LineWrapper>
+            <LineWrapper><Text>Nationality:</Text><Text>Hong Kong, China</Text></LineWrapper>
+            <LineWrapper><Text>Address:</Text><Text>XXXXX Garden, XXXXX Road, XXXXX, XX, Hong Kong</Text></LineWrapper>
+            <LineWrapper><Text>Website:</Text><Text>8https://steven-cheung.com</Text></LineWrapper>
         </SessionContainer>
     )
 }

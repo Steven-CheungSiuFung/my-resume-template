@@ -1,4 +1,5 @@
 import SessionContainer from "../../components/session-container/session-container.component";
+import LineWrapper from "../../components/line-wrapper/line-wrapper.component";
 
 import SubTitle from "../../components/sub-title/sub-title.component";
 import Text from "../../components/text/text.component";
@@ -12,7 +13,7 @@ function LanguageSkills() {
     return (
         <SessionContainer>
             <SubTitle><IoLanguageSharp /><Spacer />Language Skills</SubTitle>
-            <Text>Engilsh</Text>
+            <LineWrapper columns="repeat(3,max-content)"><Text>Cantonese</Text><Text>Engilsh</Text><Text>Mandarin</Text></LineWrapper>
         </SessionContainer>
     )
 }

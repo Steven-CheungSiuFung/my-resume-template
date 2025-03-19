@@ -1,4 +1,5 @@
 import SessionContainer from "../../components/session-container/session-container.component";
+import LineWrapper from "../../components/line-wrapper/line-wrapper.component";
 
 import SubTitle from "../../components/sub-title/sub-title.component";
 import Text from "../../components/text/text.component";
@@ -12,7 +13,7 @@ function Education() {
     return (
         <SessionContainer>
             <SubTitle><PiStudentFill /><Spacer />Education</SubTitle>
-            <Text>Department of XXXXX of XXXXX University</Text>
+            <LineWrapper columns="100px 1fr"><Text>2012-2016</Text><Text>Department of XXXXX of XXXXX University</Text></LineWrapper>  
         </SessionContainer>
     )
 }
